@@ -1,6 +1,6 @@
 <div align="center" style="display:grid;place-items:center;">
 <p>
-    <img width="300" src="https://github.com/nonnnz/OOP-Game-Final/blob/main/src/res/logo.png?sanitize=true" alt="logo">
+    <img src="https://github.com/nonnnz/OOP-Game-Final/blob/main/screenshots/LOGO.png?" alt="logo">
 </p>
 <h1>FromWeakToStrong</h1>
 </div>
