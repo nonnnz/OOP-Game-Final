@@ -1,6 +1,6 @@
 <div align="center" style="display:grid;place-items:center;">
 <p>
-    <a href="https://vlang.io/" target="_blank"><img width="300" src="src/res/logo.png?sanitize=true" alt="V logo"></a>
+    <img width="300" src="https://github.com/nonnnz/OOP-Game-Final/blob/main/src/res/logo.png?sanitize=true" alt="logo">
 </p>
 <h1>FromWeakToStrong</h1>
 </div>
@@ -19,13 +19,11 @@ In the game "From Weak to Strong," players take on the role of an ordinary perso
 When a player wins a battle, they receive money and stat points to upgrade their attributes and purchase items to increase their HP and armor. If a player loses, everything is reset, and the goal of the game is to finish as quickly as possible while being cautious about upgrading attributes.
 
 ## Gameplay Screenshots
-<img src="https://github.com/nonnnz/OOP-Game-Final/blob/main/screenshots/Screenshot1.png" alt="menu" width="640" height="480">
-<img src="screenshots/Screenshot13.png" alt="main" width="640" height="480">
-<img src="screenshots/Screenshot3.png" alt="select" width="640" height="480">
-<img src="screenshots/Screenshot5.png" alt="fight" width="640" height="480">
-<img src="screenshots/Screenshot15.png" alt="complete" width="640" height="480">
-
-
+![img1](screenshots/Screenshot1.png)
+![img2](screenshots/Screenshot13.png)
+![img3](screenshots/Screenshot3.png)
+![img4](screenshots/Screenshot5.png)
+![img5](screenshots/Screenshot15.png)
 
 ## License
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
