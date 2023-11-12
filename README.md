@@ -1,6 +1,9 @@
-# FromWeakToStrong
-
-<img src="src/res/logo.png" alt="LOGO" width="362.5" height="194">
+<div align="center" style="display:grid;place-items:center;">
+<p>
+    <a href="https://vlang.io/" target="_blank"><img width="300" src="src/res/logo.png?sanitize=true" alt="V logo"></a>
+</p>
+<h1>FromWeakToStrong</h1>
+</div>
 
 ## Prerequisites
 
@@ -22,7 +25,7 @@ When a player wins a battle, they receive money and stat points to upgrade their
 <img src="screenshots/Screenshot5.png" alt="fight" width="640" height="480">
 
 ## License
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **Asset Credit:** Player and Monsters by Elthen from [elthen.itch.io](https://elthen.itch.io/)
