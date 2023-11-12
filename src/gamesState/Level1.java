@@ -162,7 +162,8 @@ public class Level1 extends State implements StateMethods {
 
         int monsterHP = currentMonster.getHP();
         int monsterATK = currentMonster.getATK();
-        int monsterDamage = random.nextInt(monsterATK / 2) + 1;
+        int minMonsterATK = monsterATK / 2;
+        int monsterDamage = random.nextInt(monsterATK - minMonsterATK + 1) + minMonsterATK;
 
         // Check for critical hit
         boolean isCritical = false;
@@ -201,23 +202,17 @@ public class Level1 extends State implements StateMethods {
         int armor = game.getPlayer().getARMOR();
         int monsterIndex = game.getMonster() - 1;
         Monster currentMonster = monsters[monsterIndex];
-        game.getPlayer().setARMOR(0);
-
         Random random = new Random();
         int blockChance = 10;
-
         boolean blockSuccessful = random.nextInt(100) < blockChance;
-
         if (blockSuccessful) {
             gameMessages[0] = "Block!";
             gameMessages[1] = currentMonster.getMonsterName() + " deals 0 damage!!!";
         } else {
             int monsterATK = currentMonster.getATK();
-
             int damage = armor - monsterATK;
             System.out.println(damage);
             if(damage < 0) {
-                System.out.println(damage+"getin");
                 game.getPlayer().setARMOR(0);
                 int newHP = game.getPlayer().getHP();
                 int newPlayerHP = newHP + damage;
