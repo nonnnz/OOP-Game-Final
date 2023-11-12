@@ -23,6 +23,9 @@ When a player wins a battle, they receive money and stat points to upgrade their
 <img src="screenshots/Screenshot13.png" alt="main" width="640" height="480">
 <img src="screenshots/Screenshot3.png" alt="select" width="640" height="480">
 <img src="screenshots/Screenshot5.png" alt="fight" width="640" height="480">
+<img src="screenshots/Screenshot15.png" alt="complete" width="640" height="480">
+
+
 
 ## License
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
